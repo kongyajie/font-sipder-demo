@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'HYRuiZhiW';
-    src: url('HYRuiZhiW.ttf') format('truetype');
+    font-family: 'testFont';
+    src: url('./testFont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /*使用选择器指定字体*/
 .home h1, .demo > .test {
-    font-family: 'HYRuiZhiW';
+    font-family: 'testFont';
 }
